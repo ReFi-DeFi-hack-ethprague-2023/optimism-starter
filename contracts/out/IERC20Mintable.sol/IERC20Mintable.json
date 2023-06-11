@@ -1,0 +1,258 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "mint",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "mint(address,uint256)": "40c10f19"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"mint\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"Interface of a mintable erc-20 token\",\"kind\":\"dev\",\"methods\":{\"mint(address,uint256)\":{\"details\":\"Creates `amount` new tokens for `account`\",\"params\":{\"account\":\"The address to create tokens for\",\"amount\":\"The amount of tokens to create\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/src/interfaces/IERC20Mintable.sol\":\"IERC20Mintable\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@eth-optimism/contracts-bedrock/=node_modules/@eth-optimism/contracts-bedrock/\",\":@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/\",\":@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/\",\":ds-test/=contracts/lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=contracts/lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-std/=contracts/lib/forge-std/src/\",\":openzeppelin-contracts/=contracts/lib/openzeppelin-contracts/\",\":openzeppelin/=contracts/lib/openzeppelin-contracts/contracts/\"]},\"sources\":{\"contracts/src/interfaces/IERC20Mintable.sol\":{\"keccak256\":\"0x15facb955dfc3ee2e37cf8cfc80129cc1435f073399e9d868b87fb1347c55a02\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e09a54d197e8dc12bdf0b594345450f6bca25149de1f4eb70ebda52bbf9c6ec4\",\"dweb:/ipfs/Qma35NUSAxcGR8fxHvtLxYFfh9fPknwbAEjSuNJL8kp7KN\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.15+commit.e14f2714"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "mint"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {
+          "mint(address,uint256)": {
+            "details": "Creates `amount` new tokens for `account`",
+            "params": {
+              "account": "The address to create tokens for",
+              "amount": "The amount of tokens to create"
+            }
+          }
+        },
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@eth-optimism/contracts-bedrock/=node_modules/@eth-optimism/contracts-bedrock/",
+        ":@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/",
+        ":@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+        ":ds-test/=contracts/lib/forge-std/lib/ds-test/src/",
+        ":erc4626-tests/=contracts/lib/openzeppelin-contracts/lib/erc4626-tests/",
+        ":forge-std/=contracts/lib/forge-std/src/",
+        ":openzeppelin-contracts/=contracts/lib/openzeppelin-contracts/",
+        ":openzeppelin/=contracts/lib/openzeppelin-contracts/contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/src/interfaces/IERC20Mintable.sol": "IERC20Mintable"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/src/interfaces/IERC20Mintable.sol": {
+        "keccak256": "0x15facb955dfc3ee2e37cf8cfc80129cc1435f073399e9d868b87fb1347c55a02",
+        "urls": [
+          "bzz-raw://e09a54d197e8dc12bdf0b594345450f6bca25149de1f4eb70ebda52bbf9c6ec4",
+          "dweb:/ipfs/Qma35NUSAxcGR8fxHvtLxYFfh9fPknwbAEjSuNJL8kp7KN"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/src/interfaces/IERC20Mintable.sol",
+    "id": 893,
+    "exportedSymbols": {
+      "IERC20Mintable": [
+        892
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:333:4",
+    "nodes": [
+      {
+        "id": 882,
+        "nodeType": "PragmaDirective",
+        "src": "32:23:4",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 892,
+        "nodeType": "ContractDefinition",
+        "src": "110:254:4",
+        "nodes": [
+          {
+            "id": 891,
+            "nodeType": "FunctionDefinition",
+            "src": "306:56:4",
+            "nodes": [],
+            "documentation": {
+              "id": 884,
+              "nodeType": "StructuredDocumentation",
+              "src": "139:164:4",
+              "text": " @dev Creates `amount` new tokens for `account`\n @param account The address to create tokens for\n @param amount The amount of tokens to create"
+            },
+            "functionSelector": "40c10f19",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "mint",
+            "nameLocation": "315:4:4",
+            "parameters": {
+              "id": 889,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 886,
+                  "mutability": "mutable",
+                  "name": "account",
+                  "nameLocation": "328:7:4",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 891,
+                  "src": "320:15:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 885,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "320:7:4",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 888,
+                  "mutability": "mutable",
+                  "name": "amount",
+                  "nameLocation": "345:6:4",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 891,
+                  "src": "337:14:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 887,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "337:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "319:33:4"
+            },
+            "returnParameters": {
+              "id": 890,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "361:0:4"
+            },
+            "scope": 892,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IERC20Mintable",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 883,
+          "nodeType": "StructuredDocumentation",
+          "src": "57:52:4",
+          "text": " @dev Interface of a mintable erc-20 token"
+        },
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          892
+        ],
+        "name": "IERC20Mintable",
+        "nameLocation": "120:14:4",
+        "scope": 893,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 4
+}

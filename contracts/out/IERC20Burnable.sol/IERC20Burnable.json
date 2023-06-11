@@ -1,0 +1,219 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "burn",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "burn(uint256)": "42966c68"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"burn\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"Interface of a burnable erc-20 token\",\"kind\":\"dev\",\"methods\":{\"burn(uint256)\":{\"details\":\"Destroys `amount` tokens from caller\",\"params\":{\"amount\":\"The amount of tokens to destroy\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/src/interfaces/IERC20Burnable.sol\":\"IERC20Burnable\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@eth-optimism/contracts-bedrock/=node_modules/@eth-optimism/contracts-bedrock/\",\":@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/\",\":@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/\",\":ds-test/=contracts/lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=contracts/lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-std/=contracts/lib/forge-std/src/\",\":openzeppelin-contracts/=contracts/lib/openzeppelin-contracts/\",\":openzeppelin/=contracts/lib/openzeppelin-contracts/contracts/\"]},\"sources\":{\"contracts/src/interfaces/IERC20Burnable.sol\":{\"keccak256\":\"0x44a61300ec9e5feaa4e2b34c8334eb5a1e2bd06406f5f38c304ff3ed6f34e256\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://73e70675df3692672649bd17ea78f13c90bf4ae81f1b94f553ab53307f40e37a\",\"dweb:/ipfs/QmRraUEqzAZoxCofMZfLMm9RcJa9eQsC8gVQMLKdo5vNWE\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.15+commit.e14f2714"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "burn"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {
+          "burn(uint256)": {
+            "details": "Destroys `amount` tokens from caller",
+            "params": {
+              "amount": "The amount of tokens to destroy"
+            }
+          }
+        },
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@eth-optimism/contracts-bedrock/=node_modules/@eth-optimism/contracts-bedrock/",
+        ":@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/",
+        ":@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+        ":ds-test/=contracts/lib/forge-std/lib/ds-test/src/",
+        ":erc4626-tests/=contracts/lib/openzeppelin-contracts/lib/erc4626-tests/",
+        ":forge-std/=contracts/lib/forge-std/src/",
+        ":openzeppelin-contracts/=contracts/lib/openzeppelin-contracts/",
+        ":openzeppelin/=contracts/lib/openzeppelin-contracts/contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/src/interfaces/IERC20Burnable.sol": "IERC20Burnable"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/src/interfaces/IERC20Burnable.sol": {
+        "keccak256": "0x44a61300ec9e5feaa4e2b34c8334eb5a1e2bd06406f5f38c304ff3ed6f34e256",
+        "urls": [
+          "bzz-raw://73e70675df3692672649bd17ea78f13c90bf4ae81f1b94f553ab53307f40e37a",
+          "dweb:/ipfs/QmRraUEqzAZoxCofMZfLMm9RcJa9eQsC8gVQMLKdo5vNWE"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/src/interfaces/IERC20Burnable.sol",
+    "id": 881,
+    "exportedSymbols": {
+      "IERC20Burnable": [
+        880
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:259:3",
+    "nodes": [
+      {
+        "id": 872,
+        "nodeType": "PragmaDirective",
+        "src": "32:23:3",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 880,
+        "nodeType": "ContractDefinition",
+        "src": "110:180:3",
+        "nodes": [
+          {
+            "id": 879,
+            "nodeType": "FunctionDefinition",
+            "src": "249:39:3",
+            "nodes": [],
+            "documentation": {
+              "id": 874,
+              "nodeType": "StructuredDocumentation",
+              "src": "139:107:3",
+              "text": " @dev Destroys `amount` tokens from caller\n @param amount The amount of tokens to destroy"
+            },
+            "functionSelector": "42966c68",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "burn",
+            "nameLocation": "258:4:3",
+            "parameters": {
+              "id": 877,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 876,
+                  "mutability": "mutable",
+                  "name": "amount",
+                  "nameLocation": "271:6:3",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 879,
+                  "src": "263:14:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 875,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "263:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "262:16:3"
+            },
+            "returnParameters": {
+              "id": 878,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "287:0:3"
+            },
+            "scope": 880,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IERC20Burnable",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 873,
+          "nodeType": "StructuredDocumentation",
+          "src": "57:52:3",
+          "text": " @dev Interface of a burnable erc-20 token"
+        },
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          880
+        ],
+        "name": "IERC20Burnable",
+        "nameLocation": "120:14:3",
+        "scope": 881,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 3
+}
